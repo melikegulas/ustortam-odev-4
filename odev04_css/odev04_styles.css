@@ -1,0 +1,111 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #E7E7E7;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/* HEADER */
+#header-nav {
+  background-color: gray;
+  border-radius: 0;
+  border: 0; 
+  
+}
+
+.navbar-brand {
+  padding-top: 15px;
+  float: left;
+}
+.navbar-brand div { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: black;
+  font-size: 1.5em;
+  /*font-weight: bold;*/
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  
+}
+
+#nav-list {
+  margin-top: 20px;
+  
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+  font-size: 0.9em;
+  border: 1px solid #000000;
+  background: white; 
+}
+#nav-list a:hover {
+  background: #fff;
+}
+#nav-list a span {
+  font-size: 1.3em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -40px;
+}
+
+#main-content{
+  box-sizing: border-box;
+  margin-left: 1px;
+  width: 100%;
+}
+#baslik{
+  color: black;
+  text-align: center;
+  font-family: 'Lora', serif;
+  text-shadow: 1px 1px 1px #222;
+}
+#solkutu h2#chicken{
+	color: black;
+  text-align: center;
+  font-family: 'Lora', serif;
+  text-shadow: 1px 1px 1px #222;
+
+}
+#ortakutu h2#beef{
+	color: black;
+  text-align: center;
+  font-family: 'Lora', serif;
+  text-shadow: 1px 1px 1px #222;
+}
+#sagkutu h2#sushi{
+  color: black;
+  text-align: center;
+  font-family: 'Lora', serif;
+  text-shadow: 1px 1px 1px #222;
+}
+
+#solkutu{
+
+	height: 400px;
+	float:left;
+	background: grey;
+  border:1px solid black;
+  margin-bottom: 15px;
+
+}
+#ortakutu{
+	height: 400px;
+	float:left;
+	background: grey;
+	border:1px solid black;
+  margin-bottom: 15px;
+}
+#sagkutu{
+	height: 400px;
+	float:left;
+	background: grey;
+	border:1px solid black;
+  margin-bottom: 15px;
+}
