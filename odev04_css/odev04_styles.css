@@ -66,24 +66,12 @@ body {
   font-family: 'Lora', serif;
   text-shadow: 1px 1px 1px #222;
 }
-#solkutu h2#chicken{
+#solkutu h2#chicken, #ortakutu h2#beef, #sagkutu h2#sushi {
 	color: black;
   text-align: center;
   font-family: 'Lora', serif;
   text-shadow: 1px 1px 1px #222;
 
-}
-#ortakutu h2#beef{
-	color: black;
-  text-align: center;
-  font-family: 'Lora', serif;
-  text-shadow: 1px 1px 1px #222;
-}
-#sagkutu h2#sushi{
-  color: black;
-  text-align: center;
-  font-family: 'Lora', serif;
-  text-shadow: 1px 1px 1px #222;
 }
 
 #solkutu, #ortakutu, #sagkutu{
