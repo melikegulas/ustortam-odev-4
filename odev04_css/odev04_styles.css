@@ -86,26 +86,15 @@ body {
   text-shadow: 1px 1px 1px #222;
 }
 
-#solkutu{
+#solkutu, #ortakutu, #sagkutu{
 
-	height: 400px;
+  height: 400px;
 	float:left;
 	background: grey;
   border:1px solid black;
   margin-bottom: 15px;
+  overflow: hidden;
+  position: relative;
 
 }
-#ortakutu{
-	height: 400px;
-	float:left;
-	background: grey;
-	border:1px solid black;
-  margin-bottom: 15px;
-}
-#sagkutu{
-	height: 400px;
-	float:left;
-	background: grey;
-	border:1px solid black;
-  margin-bottom: 15px;
-}
+
