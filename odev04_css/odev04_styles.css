@@ -60,6 +60,7 @@ body {
   margin-left: 1px;
   width: 100%;
 }
+
 #baslik{
   color: black;
   text-align: center;
@@ -74,15 +75,24 @@ body {
 
 }
 
-#solkutu, #ortakutu, #sagkutu{
-
-  height: 400px;
-	float:left;
-	background: grey;
-  border:1px solid black;
-  margin-bottom: 15px;
-  overflow: hidden;
-  position: relative;
+#aaa {
+  width: auto;
+  height: 350px;
+  background: rgb(139, 194, 231);
+  border:2px solid black;
+  padding: 5px;
 
 }
+#solkutu, #ortakutu, #sagkutu{
+  height: 400px;
+	float:left;	
+  
+  margin-bottom: 15px;
+  padding:30px 30px;
+ /* background: purple;*/
+ 
+ background: #E7E7E7;
+ 
+}
+
 
